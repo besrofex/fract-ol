@@ -6,7 +6,7 @@
 /*   By: ylabser <ylabser@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/01 15:36:35 by ylabser           #+#    #+#             */
-/*   Updated: 2025/03/01 15:36:38 by ylabser          ###   ########.fr       */
+/*   Updated: 2025/03/08 17:14:05 by ylabser          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,8 +24,6 @@
 
 # define ESC 53
 
-// # define LEFT_MOUSE 1
-// # define RIGHT_MOUSE 2
 # define SCROLL_UP 4
 # define SCROLL_DOWN 5
 

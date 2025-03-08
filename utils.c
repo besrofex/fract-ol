@@ -6,7 +6,7 @@
 /*   By: ylabser <ylabser@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/01 15:37:45 by ylabser           #+#    #+#             */
-/*   Updated: 2025/03/01 15:37:46 by ylabser          ###   ########.fr       */
+/*   Updated: 2025/03/08 17:13:57 by ylabser          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -78,7 +78,6 @@ double	ft_atodouble(char *str)
 
 int	valid_value(char *str)
 {
-	double	num;
 	size_t	i;
 
 	i = 0;
@@ -98,6 +97,5 @@ int	valid_value(char *str)
 		|| !ft_strcmp(str, "-.")
 		|| !ft_strcmp(str, "."))
 		return (0);
-	num = ft_atodouble(str);
 	return (1);
 }
