@@ -6,7 +6,7 @@
 /*   By: ylabser <ylabser@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/03/01 15:37:25 by ylabser           #+#    #+#             */
-/*   Updated: 2025/03/08 13:36:48 by ylabser          ###   ########.fr       */
+/*   Updated: 2025/03/08 17:22:59 by ylabser          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ static void	handle_args(int argc, char **argv, t_data *data)
 	{
 		data->name = "julia";
 		data->c.real = ft_atodouble(argv[2]);
-		data->c.imaginary = -ft_atodouble(argv[3]);
+		data->c.imaginary = ft_atodouble(argv[3]);
 		return ;
 	}
 	display_usage();
